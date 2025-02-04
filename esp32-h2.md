@@ -210,16 +210,12 @@ void loop() {
 
 ### A. Port Com  tidak dapat dikenali di Arduino
 
-Bila port COM di windows tidak dikenali pastikan install driver terlebih dahulu ada  beberapa kemungkinan yaitu permasalaha di chip, permasalah di usb serial, permasalahan di kabe dan permasalahan di komputer. 
+Bila port COM di windows tidak dikenali pastikan install driver terlebih dahulu ada  beberapa kemungkinan yaitu permasalahan di chip,  di usb serial,  di kabel USB dan permasalahan di komputer. 
 
-### 1. Belum install  driver USB
-
-Permasalahan yang umum adalah berlum install driver usb serial. driver usb serial di board ini menggunakan driver ch343 yang dapat diunduh melalui google dengan kata kunci "download driver ch343" atau bisa juga langsung ke situs manufakturnya. 
-
-### 2. Permasalahan kabel USB
+### 1. Permasalahan kabel USB
 Bila masih belum dikenali kemungkinan Kabel USB bukan merupakan kabel data melainkan kabel power saja. Jadi pastikan menggunakan kabel data yang berkualitas yang pendek (maksimal 1m). bila tidak dikenali juga coba di pindah port usb lainnya di komputer tersebut atau menggunakan komputer lainnya.  
 
-### 3. Belum masuk Mode Bootloader
+### 2. Belum masuk Mode Bootloader
 
 Belum masuk mode bootloader juga menyebebkan komputer tidak mengenali device ESP32. Untuk mengatasi ini caranya cukup simple yaitu dengan menekan tombol tertentu yang ada di ESP32 sehingga bisa masuk mode bootloader. untuk masuk ke mode bootloader  caranya sebagai berikut:
 
